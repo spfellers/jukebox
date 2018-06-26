@@ -9,15 +9,15 @@
             path: 'login',
             component: LoginComponent,
         },
-        //{
-        //    path: '',
-        //    redirectTo: 'login',
-        //    pathMatch: 'full'
-        //},
-        //{
-        //    path: '**',
-        //    component: PageNotFoundComponent,
-        //},
+        {
+            path: '',
+            redirectTo: 'login',
+            pathMatch: 'full'
+        },
+        {
+            path: '**',
+            component: PageNotFoundComponent,
+        },
     ];
 
     @NgModule({
